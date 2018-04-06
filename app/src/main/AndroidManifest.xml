@@ -59,6 +59,7 @@
         <activity
             android:name=".AlamatKantor3pe.KantorJakarta"
             android:label="@string/title_activity_kantor_jakarta" />
+        <activity android:name=".CekShipment"></activity>
     </application>
 
 </manifest>

@@ -35,6 +35,7 @@ import com.example.root.corporate3pe.Layanan.PenyimpananBarang;
 import com.example.root.corporate3pe.Perusahaan.Fragment1;
 import com.example.root.corporate3pe.Perusahaan.Fragment2;
 import com.example.root.corporate3pe.Perusahaan.Fragment3;
+import com.example.root.corporate3pe.Perusahaan.Fragment4;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity
             Fragment1.OnFragmentInteractionListener,
             Fragment2.OnFragmentInteractionListener,
             Fragment3.OnFragmentInteractionListener,
-            Legalitas.OnFragmentInteractionListener,
+            Fragment4.OnFragmentInteractionListener,
 
                 PengirimanDarat.OnFragmentInteractionListener,
                 PengirimanLaut.OnFragmentInteractionListener,
@@ -245,7 +246,7 @@ public class MainActivity extends AppCompatActivity
         }
 
 //        else if (id == R.id.cobabutton) {
-//            Intent intent = new Intent(getApplication(), TabBarrr.class);
+//            Intent intent = new Intent(getApplication(), Cek Shipment.class);
 //            startActivity(intent);
 //        }
 
@@ -262,7 +263,7 @@ public class MainActivity extends AppCompatActivity
                         }
 
                             else if (id == R.id.nav_frag4) {
-                                fragment = new Legalitas();
+                                fragment = new Fragment4();
                             }
 
         else if (id == R.id.pengirimandarat) {
