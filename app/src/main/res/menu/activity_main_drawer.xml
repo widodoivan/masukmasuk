@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/cobabutton"
+            android:icon="@drawable/googleg_standard_color_18"
+            android:title="cobabutton" />
+
+    </group>
+
+    <item android:title="Perusahaan">
+        <menu>
+                            <item
+                            android:id="@+id/nav_frag1"
+                            android:icon="@drawable/visiiconn"
+                            android:title="@string/visi_misi" />
+                        <item
+                        android:id="@+id/nav_frag2"
+                        android:icon="@drawable/latariconn"
+                        android:title="@string/latar_belakang" />
+                    <item
+                    android:id="@+id/nav_frag3"
+                    android:icon="@drawable/sejarahperusglobe"
+                    android:title="@string/sejarah_perusahaan" />
+                <item
+                android:id="@+id/nav_frag4"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="@string/legalitas" />
+        </menu>
+    </item>
+
+
+    <item android:title="Layanan">
+        <menu>
+
+            <item
+                android:id="@+id/pengirimandarat"
+                android:icon="@drawable/ic_local_shipping_black_24dp"
+                android:title="Pengiriman Darat" />
+                <item
+                    android:id="@+id/pengirimanlaut"
+                    android:icon="@drawable/kapall"
+                    android:title="Pengiriman Laut" />
+                    <item
+                        android:id="@+id/pengirimanudara"
+                        android:icon="@drawable/motormuluk"
+                        android:title="Pengiriman Udara" />
+                        <item
+                            android:id="@+id/kurir"
+                            android:icon="@drawable/kurircoon"
+                            android:title="Jasa Pengiriman Kurir" />
+                            <item
+                                android:id="@+id/penyimpananbarang"
+                                android:icon="@drawable/penyimpananbarang"
+                                android:title="Penyimpanan Barang" />
+
+        </menu>
+    </item>
+
+    <item android:title="Lainnya">
+        <menu>
+
+            <item
+                android:id="@+id/artikel"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Artikel" />
+            <item
+                android:id="@+id/kontak"
+                android:icon="@drawable/ic_local_phone_black_24dp"
+                android:title="Kontak" />
+
+        </menu>
+    </item>
+
+</menu>

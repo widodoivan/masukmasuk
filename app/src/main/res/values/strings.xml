@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Corporate3pe</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="visi_misi">Visi Misi</string>
+    <string name="home">Home</string>
+    <string name="latar_belakang">Latar Belakang</string>
+    <string name="sejarah_perusahaan">Sejarah Perusahaan</string>
+    <string name="legalitas">Legalitas</string>
+    <string name="_031_8533130">031 8533130</string>
+    <string name="_0811_3478_181">0811 3478 181</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="title_activity_cek_harga">CekHarga</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_kantor_surabaya">Map</string>
+    <string name="title_activity_kantor_semarang">Map</string>
+    <string name="title_activity_kantor_jakarta">Map</string>
+    <string name="title_activity_tab_barrr">TabBarrr</string>
+</resources>

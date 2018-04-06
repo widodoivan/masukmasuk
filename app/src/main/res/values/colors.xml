@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#098535</color>
+    <color name="colorPrimaryDark">#07702d</color>
+    <color name="colorAccent">#134400</color>
+
+    <color name="logo3peijoe">#098535</color>
+    <color name="ijoke">#33691e</color>
+    <color name="ijote">#FF134400</color>
+
+    <color name="ijostabilofeteng">#8bc34a</color>
+    <color name="ijostabilofadang">#b2ff59</color>
+
+    <color name="ijofuyeh">#2E7D32</color>
+    <color name="ijostabilofouuadang">#76ff03</color>
+    <color name="ijookalem">#7cb342</color>
+    <color name="ijotipis">#aed581</color>
+
+    <color name="ijooke">#969696</color>
+    <color name="abuabu">#e0e0e0</color>
+    <color name="putihidjo">#f1f8e9</color>
+    <color name="putih">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>
+
+

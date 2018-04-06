@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.root.corporate3pe.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/cekharga_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <FrameLayout
+            android:id="@+id/mainFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardMaxElevation="6dp"
+            app:contentPadding="11dp">
+
+            <ImageView
+                android:id="@+id/gambarhome"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                app:srcCompat="@drawable/artikel" />
+        </android.support.v7.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="HARGA PENGIRIMAN"
+            android:textColor="?android:attr/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/AsalLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:backgroundTint="?android:attr/colorPrimaryDark"
+            android:gravity="center"
+            android:hint="Asal"
+            android:popupBackground="@android:color/white"
+            android:textColor="?android:attr/colorPrimaryDark"
+            android:textColorHint="?android:attr/colorPrimaryDark"
+            android:textSize="13sp">
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <requestFocus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/TujuanLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:backgroundTint="?android:attr/colorPrimaryDark"
+            android:gravity="center"
+            android:hint="Tujuan"
+            android:popupBackground="@android:color/white"
+            android:textColor="?android:attr/colorPrimaryDark"
+            android:textColorHint="?android:attr/colorPrimaryDark"
+            android:textSize="13sp">
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <requestFocus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_btncekharga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="6dp"
+            app:contentPadding="5dp">
+
+            <Button
+                android:id="@+id/btncekharga"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="btncekharga"
+                android:text="Cek"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/harganyacuy"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:onClick="onharganyacuy"
+            android:textColor="?android:attr/colorPrimaryDark"
+            android:textColorHint="?android:attr/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/refresh_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/refreshicon"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+    </LinearLayout>
+</LinearLayout>

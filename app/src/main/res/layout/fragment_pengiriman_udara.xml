@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.root.corporate3pe.Layanan.PengirimanUdara">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@color/colorPrimaryDark"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/textView74"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="4dp"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/cardview_light_background"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/pengirimanudara"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Jasa Pengiriman Barang Transportasi Udara"-->
+                <!--android:textColor="@color/cardview_light_background"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/textView73"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="4dp"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/cardview_light_background"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="6dp"
+                    app:cardMaxElevation="6dp"
+                    app:contentPadding="7dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/pesawat" />
+                </android.support.v7.widget.CardView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/surabaya"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="Tiga Permata Ekspres melayani jasa pengiriman barang transportasi udara"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_imagsseView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#eeeeee"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="6dp"
+                    app:cardMaxElevation="6dp"
+                    app:contentPadding="7dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#eeeeee"
+                        android:orientation="vertical">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+
+                        <TextView
+                            android:id="@+id/textView45"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
+                            android:text="Pengiriman kilat setiap saat "
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
+                            android:text="Tiga Permata Ekspres menawarkan berbagai jenis jasa pengiriman untuk memenuhi kebutuhan anda. Jasa pengiriman barang transportasi udara kami baik domestik maupun internasional dapat diandalkan, aman dan kompetitif. Kami juga memahami bahwa pelanggan kami membutuhkan pengiriman yang mendesak. Kami hadir dengan penawaran pengiriman tercepat menggunakan penerbangan pertama yang tersedia. Kami akan memprioritaskan barang yang anda kirim agar sampai tujuan dengan aman dan tepat waktu."
+                            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                            android:textSize="14sp" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_imagsseViewd3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#eeeeee"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="6dp"
+                    app:cardMaxElevation="6dp"
+                    app:contentPadding="7dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#eeeeee"
+                        android:orientation="vertical">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
+                            android:text="Pengiriman door to door"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+
+                        <TextView
+                            android:id="@+id/textView66"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
+                            android:text="Kami adalah perusahaan jasa yang lengkap, menawarkan jasa pengambilan barang dan mengirimkannya secara langsung. Kami bertujuan untuk memberikan pelayanan yang tepat dan efisien setiap saat kepada semua pelanggan. Tiga Permata Ekspres memiliki jaringan kerjasama pendistribusian yang luas sehingga dapat mengurangi biaya gudang dan mengirimkan barang kiriman anda ke berbagai tujuan tepat waktu."
+                            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                            android:textSize="14sp" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_imagsseView3s"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#eeeeee"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="6dp"
+                    app:cardMaxElevation="6dp"
+                    app:contentPadding="7dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#eeeeee"
+                        android:orientation="vertical">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+
+                        <TextView
+                            android:id="@+id/textView67"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
+                            android:text="Pengiriman ekonomis"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+
+                        <TextView
+                            android:id="@+id/textView68"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
+                            android:text="Tiga Permata Ekspres menawarkan jasa pengiriman barang transportasi udara yang sesuai dengan kebutuhan keuangan anda. Pengiriman ekonomi yang kami tawarkan dapat dipercaya dan hemat. Jenis pengiriman ini cocok untuk pengiriman barang yang sifatnya tidak mendesak."
+                            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                            android:textSize="14sp" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
