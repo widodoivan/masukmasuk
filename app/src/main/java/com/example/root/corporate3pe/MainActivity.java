@@ -245,10 +245,10 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         }
 
-//        else if (id == R.id.cobabutton) {
-//            Intent intent = new Intent(getApplication(), Cek Shipment.class);
-//            startActivity(intent);
-//        }
+        else if (id == R.id.cobabutton) {
+            Intent intent = new Intent(getApplication(), CekShipment.class);
+            startActivity(intent);
+        }
 
                 else if (id == R.id.nav_frag1) {
                     fragment = new Fragment1();

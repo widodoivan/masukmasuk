@@ -38,6 +38,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.root.corporate3pe.Kontak.Kontaks" />
         </activity>
+
+        <activity
+            android:name=".CekShipment"
+            android:label="Cek Shipment"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.root.corporate3pe.CekShipment" />
+        </activity>
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -59,7 +69,6 @@
         <activity
             android:name=".AlamatKantor3pe.KantorJakarta"
             android:label="@string/title_activity_kantor_jakarta" />
-        <activity android:name=".CekShipment"></activity>
     </application>
 
 </manifest>

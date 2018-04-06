@@ -9,7 +9,7 @@
 
         <item
             android:id="@+id/cobabutton"
-            android:icon="@drawable/googleg_standard_color_18"
+            android:icon="@drawable/ss"
             android:title="cobabutton" />
 
     </group>
