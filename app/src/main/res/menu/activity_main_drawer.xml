@@ -10,12 +10,14 @@
         <item
             android:id="@+id/cobabutton"
             android:icon="@drawable/ic_update_black_24dp"
-            android:title="cobabutton" />
+            android:title="Cek Shipment" />
 
     </group>
 
     <item android:title="Perusahaan">
-        <menu>
+
+                                <menu>
+
                             <item
                             android:id="@+id/nav_frag1"
                             android:icon="@drawable/visiiconn"
@@ -32,7 +34,9 @@
                 android:id="@+id/nav_frag4"
                 android:icon="@drawable/ic_book_black_24dp"
                 android:title="@string/legalitas" />
+
         </menu>
+
     </item>
 
 
@@ -60,7 +64,7 @@
                                 android:icon="@drawable/penyimpananbarang"
                                 android:title="Penyimpanan Barang" />
 
-        </menu>
+                                    </menu>
     </item>
 
     <item android:title="Lainnya">
