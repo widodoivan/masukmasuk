@@ -25,7 +25,7 @@ class JsonParse {
         try {
 
 //          String slokasi=sLokasi.replace(" ", "%20");
-            URL js = new URL("http://api.3permata.co.id/wilayah/all/"+sLokasi);
+            URL js = new URL(" "+sLokasi);
             URLConnection jc = js.openConnection();
             BufferedReader reader = new BufferedReader(new InputStreamReader(jc.getInputStream()));
             String line = reader.readLine();
