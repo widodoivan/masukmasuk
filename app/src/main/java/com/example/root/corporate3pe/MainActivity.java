@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView.OnNavigationItemSelectedListener {
 
     //cek_harga//
-    private static String ROOT_URL = "http://api.3permata.co.id/relokasi/cari";
+    private static String ROOT_URL = " ";
     private static final String TAG = MainActivity.class.getSimpleName();
     AutoCompleteTextView Aslokasi, TuLokasi;
     long AsLokasiId, TuLokasiId;
